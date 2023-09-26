@@ -1,0 +1,40 @@
+.logo-pic {
+    width: 100%;
+    height:350px;
+    margin-top:0;
+    margin-bottom: 1rem;
+}
+
+.login-page {
+     padding: 2rem;
+     margin: 2rem;
+     margin-left: 30%;
+     margin-right: 30%;
+     border: 1px solid black;
+     background-color: lavender;
+     width: clamp(20rem, 70%, 35rem);
+     border-radius: 20px;
+     box-shadow: 1px 1px 3px 5px lightgrey;
+}
+
+.login-button {
+     font-size: 18px;
+     background-color: cadetblue;
+     color: white;
+     box-shadow: 1px 1px 3px 3px grey;
+}
+
+.login-form {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 2rem;
+}
+
+ .login-username {
+     padding: 0.5rem;
+     font-size: 15px;
+}
+
+ .span-username {
+     font-size: 25px;
+}

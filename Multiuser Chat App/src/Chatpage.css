@@ -1,0 +1,86 @@
+.chat-page {
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+     width: 100%;
+     height: 100%;
+}
+
+ .span-users, .span-messages {
+     padding: 0.5rem;
+     color: darkolivegreen;
+}
+ .users-online, .users-messages {
+     list-style: none;
+     margin: 0;
+     padding-right: 1rem;
+}
+ .user-list, .message-list {
+     padding: 0.5rem;
+}
+ .user-list{
+     display: flex;
+     flex-direction: row;
+     align-items: baseline;
+     justify-content: space-between;
+}
+ .messages {
+     display: flex;
+     flex-direction: row;
+     border-radius: 10px;
+}
+ .messages p {
+     text-align: right;
+     background: #dcf8c6;
+     font-size: 18px;
+     padding:0.3rem;
+}
+ .message-list{
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     padding: 0;
+     align-items: flex-end;
+}
+
+ .status {
+     margin-left: 30%;
+     font-size: 20px;
+     font-weight: bold;
+     color: brown;
+}
+ .span-messages, .username-online {
+     font-size: 20px;
+}
+ .chat-messages {
+     height:400px;
+     display: flex;
+     flex-direction: column-reverse;
+     overflow: auto;
+}
+ .message-board {
+     display: grid;
+     grid-template-rows: auto 2fr 1.2fr;
+     background: lavender;
+}
+ .sender{
+     color: darkcyan;
+}
+ .outgoing {
+     padding: 1.2rem;
+     background: lightgrey;
+}
+ .outgoing-message-form {
+     display: grid;
+     grid-template-columns: 1fr auto;
+     grid-gap: 0.2rem;
+}
+
+.input-message {
+     padding: 0.5rem;
+     font-size: 15px;
+}
+ .form-submit {
+     font-size: 18px;
+     background-color: cadetblue;
+     color: white;
+}
